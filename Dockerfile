@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir pandas openpyxl
 
 COPY *.py .
 
-CMD ["python", "main.py"]
+CMD ["python3", "main.py"]
